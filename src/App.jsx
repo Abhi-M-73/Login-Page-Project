@@ -1,9 +1,12 @@
 import React from 'react'
+import Login from './Component/Login'
+import Profile from './Component/Profile'
 
 function App() {
   return (
     <div className='h-screen w-full'>
-      <h1>hello</h1>
+      <Login />
+      <Profile />
     </div>
   )
 }
